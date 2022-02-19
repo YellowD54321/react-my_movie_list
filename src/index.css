@@ -1,0 +1,120 @@
+header {
+  background-color: #121212;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.search-bar {
+  border: 0.3rem solid gray;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.allLists {
+  min-width: 800px;
+}
+
+.favorite-list, .overview-list, .black-list {
+  padding-top: 50px;
+}
+
+.favorite-list-header, .overview-list-header, .black-list-header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+}
+
+.favorite-list-body, .overview-list-body, .black-list-body {
+  display: flex;
+  height: 240px;
+  position:relative;
+}
+
+.overview-list-body {
+  height: 484px;
+}
+
+.hide-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position:absolute;
+  left:0;
+}
+
+.page-btn {
+  width: 50px;
+  height: 100%;
+  background-color: #121212;
+  opacity: .3;
+  border: none;
+  position:absolute;
+  z-index: 5;
+}
+
+.page-btn-left {
+  left: 0;
+}
+
+.page-btn-right {
+  right: 0;
+}
+
+.page-btn:hover {
+  opacity: .8;
+}
+
+.page-btn-img {
+  z-index: 6;
+  
+}
+
+.list-movies {
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+}
+
+.movie-poster-region {
+  width: 20%;
+  max-height: 240px;
+  position: relative;
+}
+
+.movie-poster {
+  width: 100%;
+  
+}
+
+.star-icon {
+  position: absolute;
+  right:50%;
+  top: 0;
+  width: 30px;
+}
+
+.redCross-icon {
+  position: absolute;
+  right:50%;
+  bottom: 0;
+  width: 30px;
+}
+
+.undo-icon {
+  position: absolute;
+  right:50%;
+  top: 0;
+  margin: 5px;
+  width: 20px;
+}
